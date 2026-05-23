@@ -1,0 +1,18 @@
+#status-mensagem {
+  font-size: 14px;
+  margin-bottom: 16px;
+  min-height: 20px;
+  color: #94a3b8;
+}
+
+.loading {
+  color: #f59e0b;
+}
+
+.erro {
+  color: #f87171;
+}
+
+.sucesso {
+  color: #34d399;
+}

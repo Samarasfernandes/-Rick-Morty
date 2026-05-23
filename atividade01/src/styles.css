@@ -1,0 +1,148 @@
+/* src/styles.css */
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+.app {
+  padding: 24px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.subtitulo {
+  color: #94a3b8;
+}
+
+.contador {
+  background: #1e293b;
+  padding: 10px 16px;
+  border-radius: 10px;
+}
+
+.controles {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.campo-busca {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.filtros {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-filtro {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-filtro.ativo {
+  background: #10b981;
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: #1e293b;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-body {
+  padding: 12px;
+}
+
+.card-especie {
+  color: #94a3b8;
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.badge-alive {
+  background: green;
+}
+
+.badge-dead {
+  background: crimson;
+}
+
+.badge-unknown {
+  background: orange;
+}
+
+.paginacao {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.btn-pag {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.proximo {
+  background: #10b981;
+  color: white;
+}
+
+.status {
+  margin-bottom: 16px;
+}
+
+.loading {
+  color: orange;
+}
+
+.erro {
+  color: red;
+}
+
+.sucesso {
+  color: lightgreen;
+}
+
+.vazio {
+  text-align: center;
+  padding: 50px;
+}

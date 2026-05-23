@@ -1,0 +1,21 @@
+#campo-busca {
+  flex: 1;
+  min-width: 200px;
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #e2e8f0;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.2s;
+}
+
+#campo-busca:focus {
+  border-color: #10b981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.15);
+}
+
+#campo-busca::placeholder {
+  color: #64748b;
+}
